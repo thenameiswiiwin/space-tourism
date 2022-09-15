@@ -1,8 +1,14 @@
 {
   "name": "space-tourism",
+  "description": "This is a React + vite app to be used with Tailwindcss.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": {
+    "name": "Huy Nguyen",
+    "email": "huyn.nguyen95@gmail.com",
+    "url": "https://github.com/thenameiswiiwin"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
