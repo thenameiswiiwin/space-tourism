@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --clr-dark: 230deg 35% 7%;
+    --clr-light: 198deg 77% 90%;
+    --clr-white: 0deg 0% 100%;
+  }
+
+  @font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/Barlow-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/Barlow-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Barlow Condensed';
+    src: url('./assets/fonts/BarlowCondensed-Bold.ttf') format('ttf');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Barlow Condensed';
+    src: url('./assets/fonts/BarlowCondensed-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Bellefair';
+    src: url('./assets/fonts/Bellefair-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+  }
+
+  body {
+    @apply font-barlow text-base text-white bg-dark min-h-screen;
+  }
+}
